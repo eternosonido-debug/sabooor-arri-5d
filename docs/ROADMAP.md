@@ -1,15 +1,14 @@
-# Plano de adaptação
+# Roadmap da comunidade
 
-- [ ] Confirmar o modelo exato da EOS 5D e a versão de firmware Canon.
-- [ ] Selecionar uma base Magic Lantern compatível com esse modelo e firmware.
-- [ ] Compilar e verificar a base sem o tema.
-- [ ] Separar desenho, navegação e dados de câmera do código específico da 600D.
-- [ ] Adaptar monitor, moldura preta, REC/STBY e menu mantendo o visual aprovado.
-- [ ] Auditar cada controle e ligar apenas funções reais do alvo; manter N/A onde não houver equivalente.
-- [ ] Revisar propriedades, formatos de vídeo, cadências, áudio e comportamento HDMI.
-- [ ] Avaliar viabilidade e desempenho dos looks de visualização no novo modelo.
-- [ ] Conferir limites de memória, testar no computador e documentar o que depende de câmera física.
-- [ ] Preparar pacote com fontes, licenças, instruções e retorno à versão anterior.
-- [ ] Testar em câmera com procedimento específico ao alvo, após confirmação do equipamento.
+- [x] Perfis explícitos 600D.102, 5D3.113 e 5D3.123.
+- [x] Portar moldura, menu e HOME com identificação específica.
+- [x] Gerar fontes livres para distribuição.
+- [x] Manter os controles de vídeo da 5D3 no menu Canon até validar setters próprios.
+- [x] Testes de código C nos três perfis e builds ARM para os dois firmwares 5D3.
+- [ ] Validar em 5D3 física: inicialização, menu, REC, áudio, cartões CF/SD, HDMI, FPS e uso de memória.
+- [ ] Medir desempenho e compatibilidade de Look/Anamorphic com módulos RAW/MLV.
+- [ ] Confirmar comprimentos/layouts das propriedades e método seguro de trocar modos fora do LiveView, antes de habilitar seletores diretos na 5D3.
+- [ ] Revisar recursos adicionais específicos da 5D3 (timecode, ALL-I/IPB, nível eletrônico e áudio), sem mostrar controles sem efeito.
+- [ ] Escolher o próximo modelo da matriz, compilar a base, revisar capacidades e repetir testes e validação física.
 
-A lista não presume as resoluções, cadências ou capacidades da 600D na 5D. Não transportar endereços, propriedades ou binários específicos da 600D diretamente.
+A existência de um diretório upstream não significa suporte do Sabooor. Nenhum modelo será ativado automaticamente apenas por compartilhar DIGIC ou resolução do LCD.

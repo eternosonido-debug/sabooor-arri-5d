@@ -1,0 +1,182 @@
+[
+  {
+    "platform": "100D.101",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "1100D.105",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "1300D.110",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "200D.101",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "500D.111",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "50D.109",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "550D.109",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "5D2.212",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "5D3.113",
+    "status": "compiled-host-tested-hardware-pending",
+    "sabooor_enabled": true
+  },
+  {
+    "platform": "5D3.123",
+    "status": "compiled-host-tested-hardware-pending",
+    "sabooor_enabled": true
+  },
+  {
+    "platform": "5D4.133",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "5DSR.112",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "600D.102",
+    "status": "reference-port",
+    "sabooor_enabled": true
+  },
+  {
+    "platform": "60D.111",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "650D.104",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "6D.116",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "6D2.111",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "700D.115",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "70D.112",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "750D.110",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "77D.110",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "7D.203",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "7D2.112",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "7D_MASTER.203",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "80D.103",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "850D.100",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "EOSM.202",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "M50.110",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "M6II.111",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "R.180",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "R5.152",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "R6.150",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "RP.160",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "SX70.111",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "SX740.102",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  },
+  {
+    "platform": "XF605.101",
+    "status": "planned-unreviewed",
+    "sabooor_enabled": false
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "source_commit": "2f52a7170404ef09060ba015cf82b799d3ab4a8a",
+  "upstream_commit": "142472e95054d73640f50789ac0fd66325499d82",
+  "device_tests": "not performed",
+  "targets": {
+    "5D3.113": {
+      "firmware": "113",
+      "compiled": true,
+      "tested_on_camera": false,
+      "text_start": "0x69500",
+      "bss_end": "0xfdf00",
+      "static_reservation_bytes": 608768,
+      "memory_policy": "upstream boot-d45 dynamic reservation unchanged; heap headroom unverified",
+      "zip": "sabooor-arri-5D3.113-experimental.zip",
+      "sha256": "6956d16f016a238819916c44e4a02ad9340799ff8735f29c860dce695d1931dc",
+      "symbol": "5D3_113.sym",
+      "payload_paths": [
+        "autoexec.bin",
+        "ML/modules/5D3_113.sym",
+        "ML/fonts/sabo12.rbf",
+        "ML/fonts/sabo16b.rbf",
+        "ML/fonts/FiraGO-OFL.txt",
+        "ML/LOOKS/provia.sab",
+        "ML/LOOKS/velvia.sab",
+        "ML/LOOKS/superia.sab",
+        "ML/LOOKS/manifest.json",
+        "ML/LOOKS/LICENSE-spectral-film-lut.txt"
+      ]
+    },
+    "5D3.123": {
+      "firmware": "123",
+      "compiled": true,
+      "tested_on_camera": false,
+      "text_start": "0x69500",
+      "bss_end": "0xfce00",
+      "static_reservation_bytes": 604416,
+      "memory_policy": "upstream boot-d45 dynamic reservation unchanged; heap headroom unverified",
+      "zip": "sabooor-arri-5D3.123-experimental.zip",
+      "sha256": "120bd8318ba30b024c5a4e9909f46cc3595c08108cce17734600532b6886df25",
+      "symbol": "5D3_123.sym",
+      "payload_paths": [
+        "autoexec.bin",
+        "ML/modules/5D3_123.sym",
+        "ML/fonts/sabo12.rbf",
+        "ML/fonts/sabo16b.rbf",
+        "ML/fonts/FiraGO-OFL.txt",
+        "ML/LOOKS/provia.sab",
+        "ML/LOOKS/velvia.sab",
+        "ML/LOOKS/superia.sab",
+        "ML/LOOKS/manifest.json",
+        "ML/LOOKS/LICENSE-spectral-film-lut.txt"
+      ]
+    }
+  },
+  "reproduction": "all changed files matched SHA256",
+  "public_fonts": "FiraGO SIL OFL; no DIN font files",
+  "tests": {
+    "5D3.123-controls.txt": "PASS: 5D3 Canon video-menu delegation without mode writes, REC guard, actual rate readout, LCD zoom, format launcher without erase, three LUTs and checksums, source preservation, squeeze ratios, buffer bounds and invalid asset failure.",
+    "5D3.113-runtime.txt": "PASS: four frame ratios; font-load failure falls back to native; exclusive native/themed routing and semaphore release; eligibility gates, HDMI toggle, unchanged frames do not repaint, metadata update, redraw invalidation, HOME/REC transitions.",
+    "600D.102-controls.txt": "PASS: production Canon selectors, valid mode combinations, record/FPS/length guards, no PAL/NTSC writes, deferred property changes outside GUI/menu lock, pending/record races, bounded failure notification, format launcher without erase, three LUTs and checksums, preview-only source preservation, squeeze ratios, buffer bounds, corrupt/missing LUT fail closed.",
+    "5D3.113-menu.txt": "PASS: canonical 319-node map, all rows render safely, real group/back navigation, 6 HOME cells, playback page, disabled unavailable actions, native nested ancestry, staged cancel/set/conflict, module removal, Original escape and mode gates; truthful Canon readouts, read-only SET rejection and audio-override gate",
+    "record-indicator.txt": "PASS: actual buffer renderer suppresses normal green during Sabooor, retains red warning and original behavior; menu/recording gates",
+    "5D3.113-controls.txt": "PASS: 5D3 Canon video-menu delegation without mode writes, REC guard, actual rate readout, LCD zoom, format launcher without erase, three LUTs and checksums, source preservation, squeeze ratios, buffer bounds and invalid asset failure.",
+    "600D.102-menu.txt": "PASS: canonical 319-node map, all rows render safely, real group/back navigation, 6 HOME cells, playback page, disabled unavailable actions, native nested ancestry, staged cancel/set/conflict, module removal, Original escape and mode gates; truthful Canon readouts, read-only SET rejection and audio-override gate",
+    "5D3.123-runtime.txt": "PASS: four frame ratios; font-load failure falls back to native; exclusive native/themed routing and semaphore release; eligibility gates, HDMI toggle, unchanged frames do not repaint, metadata update, redraw invalidation, HOME/REC transitions.",
+    "5D3.123-menu.txt": "PASS: canonical 319-node map, all rows render safely, real group/back navigation, 6 HOME cells, playback page, disabled unavailable actions, native nested ancestry, staged cancel/set/conflict, module removal, Original escape and mode gates; truthful Canon readouts, read-only SET rejection and audio-override gate",
+    "600D.102-runtime.txt": "PASS: four frame ratios; font-load failure falls back to native; exclusive native/themed routing and semaphore release; eligibility gates, HDMI toggle, unchanged frames do not repaint, metadata update, redraw invalidation, HOME/REC transitions."
+  }
+}
